@@ -2,6 +2,7 @@
   "name": "@my-domain/app",
   "version": "0.1.0",
   "private": true,
+  "type": "module",
   "scripts": {
     "dev": "next dev",
     "build": "next build",
@@ -12,6 +13,7 @@
     "@my-domain/ui": "workspace:libraries/ui",
     "next": "15.0.4",
     "react": "^19.0.0",
+    "react-compiler-runtime": "^19.0.0-beta-df7b47d-20241124",
     "react-dom": "^19.0.0"
   },
   "devDependencies": {
