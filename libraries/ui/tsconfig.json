@@ -1,0 +1,16 @@
+{
+  "extends": "../../tsconfig.json",
+
+  "compilerOptions": {
+    "baseUrl": ".",
+    "paths": {
+      "*": ["*", "src/*"]
+    },
+    "rootDir": "src/",
+    "allowJs": true,
+    "declaration": true,
+    "outDir": ".dist",
+    "declarationMap": true
+  },
+  "include": ["./src/**/*", "../../types/**/*", "../../node_modules/@types/**/*", "./node_modules/@types/**/*"]
+}
